@@ -83,7 +83,7 @@ export function TicTacToe() {
   return (
     <Card className="w-full max-w-4xl shadow-sm">
       <CardHeader>
-        <CardTitle className="text-2xl font-bold sm:text-3xl">Tic-Tac-Toe</CardTitle>
+        <CardTitle className="text-center text-3xl font-bold sm:text-4xl">Tic-Tac-Toe</CardTitle>
         <CardDescription className={`font-bold ${outcome?.kind === "draw" ? "" : turn === "X" ? "text-amber-700" : "text-purple-700"}`}>
           {statusLabel(turn, outcome)}
         </CardDescription>
